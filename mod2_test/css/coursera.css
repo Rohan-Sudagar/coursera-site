@@ -1,0 +1,98 @@
+
+
+#idli {
+     border: 1px thick black;
+    width: 550px;
+    float: left;
+    margin-left: 10px;
+    background-color: lightblue;
+}
+
+#panyaram {
+    border: 1px thick black;
+    width: 550px;
+    float: left;
+    margin-left: 10px;
+    background-color: #11a7da;
+}
+
+#dosa {
+ border: 1px thick black;
+    width: 550px;
+    float: left;
+    margin-left: 10px;
+  margin-right: 10px;
+    background-color: #0ed8b6;
+}
+
+#parent-div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.heading{
+float: right;
+margin-top: 6px;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+@media(min-width:992px){
+    
+    #idli {
+        border: 1px thick black;
+        width: 30%;
+    }
+    
+    #panyaram {
+        border: 1px thick black;
+        width: 30%;
+    }
+    
+    #dosa {
+        border: 1px thick black;
+        width: 30%;
+    }
+    }
+     @media (min-width:768px) and (max-width:991px) {
+    
+    #idli {
+        border: 1px thick black;
+        width: 45%;
+    }
+    
+    #panyaram {
+        border: 1px thick black;
+        width: 45%;
+    }
+    
+    #dosa {
+        border: 1px thick black;
+        width: 90%;
+    }
+     }
+    
+     @media (max-width: 767px) {
+        
+         #idli {
+            border: 1px thick black;
+            width: 90%;
+        }
+        
+        #panyaram {
+            border: 1px thick black;
+            width: 90%;
+        }
+        
+        #dosa {
+            border: 1px thick black;
+            width: 90%;
+        }
+     }
+
+
